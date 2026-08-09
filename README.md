@@ -1,1 +1,1 @@
-[ПЕРЕДЕВАШКА С ГОРДОНОМ ФРИМАНОМ](
+[ПЕРЕДЕВАШКА С ГОРДОНОМ ФРИМАНОМ](https://github.com/d0lshog/d0lshog.github.io/blob/main/EXPORT/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B5%D0%B2%D0%B0%D1%88%D0%BA%D0%B0%20%D0%A1%20%D0%93%D0%BE%D1%80%D0%B4%D0%BE%D0%BD%D0%BE%D0%BC%20%D0%A4%D1%80%D0%B8%D0%BC%D0%B0%D0%BD%D0%BE%D0%BC.html)
