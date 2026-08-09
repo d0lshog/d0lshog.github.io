@@ -1,0 +1,280 @@
+[gd_scene format=3 uid="uid://dedv6se3kjan6"]
+
+[ext_resource type="Script" uid="uid://lp3araaodr0g" path="res://СКРИПТЫ/GAME.gd" id="1_amhfo"]
+[ext_resource type="Texture2D" uid="uid://djgni7gc1pe7p" path="res://СПРАЙТЫ/half_life_1_menu_background_by_maiik28_deak6ld-fullview.png" id="2_amhfo"]
+[ext_resource type="ButtonGroup" uid="uid://m6oa56dedbwp" path="res://ВРЕМЕННЫЕ РЕСУРСЫ/COSTUME.tres" id="3_2tetw"]
+[ext_resource type="ButtonGroup" uid="uid://g3e5gjfss260" path="res://ВРЕМЕННЫЕ РЕСУРСЫ/HEAD.tres" id="4_yvlng"]
+[ext_resource type="ButtonGroup" uid="uid://dd5gd3q0rft8i" path="res://ВРЕМЕННЫЕ РЕСУРСЫ/ACC.tres" id="5_fohwo"]
+[ext_resource type="Texture2D" uid="uid://cbh56hdsgyr1" path="res://СПРАЙТЫ/1.png" id="7_qgw17"]
+[ext_resource type="Texture2D" uid="uid://crl4lgq36pho6" path="res://СПРАЙТЫ/2.png" id="8_ge203"]
+[ext_resource type="Texture2D" uid="uid://dwjgkjkoe08vb" path="res://СПРАЙТЫ/3.png" id="9_sadlc"]
+
+[sub_resource type="Theme" id="Theme_fohwo"]
+
+[node name="GAME" type="Node" unique_id=1570072094]
+script = ExtResource("1_amhfo")
+COSTUMES = ExtResource("3_2tetw")
+HEADES = ExtResource("4_yvlng")
+ACCS = ExtResource("5_fohwo")
+textures_costume = Array[Texture2D]([ExtResource("7_qgw17"), ExtResource("8_ge203"), ExtResource("9_sadlc")])
+
+[node name="Control" type="Control" parent="." unique_id=357570854]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1154.0
+offset_bottom = 649.0
+
+[node name="TextureRect" type="TextureRect" parent="Control" unique_id=1675329200]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.05459272
+anchor_top = -0.23959938
+anchor_right = 1.3393991
+anchor_bottom = 1.6194144
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_amhfo")
+metadata/_edit_use_anchors_ = true
+
+[node name="FoldableContainer" type="FoldableContainer" parent="Control" unique_id=445685735]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -133.0
+offset_bottom = 234.0
+grow_horizontal = 0
+folded = true
+title = "МЕНЮ"
+title_alignment = 1
+
+[node name="HBoxContainer" type="VBoxContainer" parent="Control/FoldableContainer" unique_id=591319007]
+visible = false
+custom_maximum_size = Vector2(132.075, -1)
+layout_mode = 2
+offset_transform_position = Vector2(-38.685, 57.115)
+offset_transform_scale = Vector2(1.645, 1.645)
+theme_override_constants/separation = 18
+
+[node name="FoldableContainer" type="FoldableContainer" parent="Control/FoldableContainer/HBoxContainer" unique_id=49724994]
+layout_mode = 2
+size_flags_vertical = 4
+theme = SubResource("Theme_fohwo")
+title = "ГРОМКОСТЬ"
+title_position = 1
+
+[node name="VSlider" type="HSlider" parent="Control/FoldableContainer/HBoxContainer/FoldableContainer" unique_id=1451731732]
+layout_mode = 2
+size_flags_vertical = 1
+offset_transform_rotation = 3.1415927
+min_value = 10.0
+max_value = 50.0
+step = 5.0
+value = 10.0
+rounded = true
+ticks_position = 1
+
+[node name="MUSIC_BUTTON" type="Button" parent="Control/FoldableContainer/HBoxContainer" unique_id=614575755]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "МУЗЫКА"
+
+[node name="HOME_BUTTON" type="Button" parent="Control/FoldableContainer/HBoxContainer" unique_id=304842231]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "В МЕНЮ"
+
+[node name="SHUFFLE" type="Button" parent="Control/FoldableContainer/HBoxContainer" unique_id=367444601]
+layout_mode = 2
+text = "ПЕРЕМЕШАТЬ"
+
+[node name="PanelContainer" type="PanelContainer" parent="Control" unique_id=39332049]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 383.0
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="Control/PanelContainer" unique_id=1522225816]
+layout_mode = 2
+current_tab = 0
+
+[node name="КОСТЮМЫ" type="ScrollContainer" parent="Control/PanelContainer/TabContainer" unique_id=1208915934]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ" unique_id=179173588]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PIJAMA" type="Button" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=1917775402]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+text = "ПИЖАМА"
+
+[node name="PIJAMA2" type="TextureButton" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=2022082533]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+texture_normal = ExtResource("7_qgw17")
+stretch_mode = 5
+
+[node name="LAB HALAT" type="Button" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=168186312]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+text = "ЛАБАЛАТОРНЫЙ ХАЛАТ
+"
+
+[node name="LAB HALAT2" type="TextureButton" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=848862450]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+texture_normal = ExtResource("8_ge203")
+stretch_mode = 5
+
+[node name="HEV" type="Button" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=1071137376]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+text = "H.E.V. КОСТЮМ"
+
+[node name="HEV2" type="TextureButton" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=1931534694]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+texture_normal = ExtResource("9_sadlc")
+stretch_mode = 5
+
+[node name="LEDI BEG" type="Button" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=2103274982]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+text = "Костюм Леди Баг"
+
+[node name="MAID DRESS" type="Button" parent="Control/PanelContainer/TabContainer/КОСТЮМЫ/VBoxContainer" unique_id=639582463]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("3_2tetw")
+text = "Платье Горничной"
+
+[node name="ГОЛОВА" type="ScrollContainer" parent="Control/PanelContainer/TabContainer" unique_id=1648975467]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PanelContainer/TabContainer/ГОЛОВА" unique_id=1184193930]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GLASSES" type="Button" parent="Control/PanelContainer/TabContainer/ГОЛОВА/VBoxContainer" unique_id=193119039]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("4_yvlng")
+text = "ОЧКИ"
+
+[node name="HELMET HEV" type="Button" parent="Control/PanelContainer/TabContainer/ГОЛОВА/VBoxContainer" unique_id=549541179]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("4_yvlng")
+text = "ШЛЕМ H.E.V."
+
+[node name="CAT EAR" type="Button" parent="Control/PanelContainer/TabContainer/ГОЛОВА/VBoxContainer" unique_id=1722261882]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("4_yvlng")
+text = "КОШАЧЬИ УШКИ"
+
+[node name="АКСЕССУАРЫ" type="ScrollContainer" parent="Control/PanelContainer/TabContainer" unique_id=1561589200]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PanelContainer/TabContainer/АКСЕССУАРЫ" unique_id=90163378]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="CROWBAR" type="Button" parent="Control/PanelContainer/TabContainer/АКСЕССУАРЫ/VBoxContainer" unique_id=2098688334]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("5_fohwo")
+text = "ФОМКА"
+
+[node name="PUGACH" type="Button" parent="Control/PanelContainer/TabContainer/АКСЕССУАРЫ/VBoxContainer" unique_id=56174938]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("5_fohwo")
+text = "ПУГАЧЬ"
+
+[node name="BUMSTICK" type="Button" parent="Control/PanelContainer/TabContainer/АКСЕССУАРЫ/VBoxContainer" unique_id=804185812]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+toggle_mode = true
+button_group = ExtResource("5_fohwo")
+text = "АВТОМАТ"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=1708400491]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -118.5
+offset_top = -80.5
+offset_right = 118.5
+offset_bottom = 80.5
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="HEAD" type="Label" parent="Control/VBoxContainer" unique_id=766321586]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "БАШКА"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="COSTUME" type="Label" parent="Control/VBoxContainer" unique_id=1913734519]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "КОСТЮМ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="COSTUME2" type="TextureRect" parent="Control/VBoxContainer" unique_id=1465749468]
+layout_mode = 2
+
+[node name="accessories" type="Label" parent="Control/VBoxContainer" unique_id=817349711]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 37
+text = "ПРИБОМБАС"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="folding_changed" from="Control/FoldableContainer/HBoxContainer/FoldableContainer" to="." method="_on_foldable_container_folding_changed"]
+[connection signal="value_changed" from="Control/FoldableContainer/HBoxContainer/FoldableContainer/VSlider" to="." method="_on_v_slider_value_changed"]
+[connection signal="toggled" from="Control/FoldableContainer/HBoxContainer/MUSIC_BUTTON" to="." method="_on_music_button_toggled"]
+[connection signal="pressed" from="Control/FoldableContainer/HBoxContainer/HOME_BUTTON" to="." method="_on_home_button_pressed"]
+[connection signal="pressed" from="Control/FoldableContainer/HBoxContainer/SHUFFLE" to="." method="_on_shuffle_pressed"]

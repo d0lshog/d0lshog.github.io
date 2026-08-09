@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bocwqj04vhgbh"]
+
+[ext_resource type="AudioStream" uid="uid://ckb3ncyyfq708" path="res://МУЗЫКА/Half-life - Мюзикл.mp3" id="1_7bf0p"]
+[ext_resource type="Script" uid="uid://d0grnaa0umogc" path="res://СКРИПТЫ/music_controller.gd" id="1_o7k1f"]
+[ext_resource type="AudioStream" uid="uid://dmrtfvfm7iqxf" path="res://МУЗЫКА/Kelly Bailey - Klaxon Beat.mp3" id="2_ejxdo"]
+[ext_resource type="AudioStream" uid="uid://cyvaqus8204df" path="res://МУЗЫКА/Half-Life 2 - Sector Sweep.mp3" id="3_hc3jy"]
+[ext_resource type="AudioStream" uid="uid://c0plnrqtscpr0" path="res://МУЗЫКА/Half-Life - Credits Closing Theme.mp3" id="4_w0dnk"]
+[ext_resource type="AudioStream" uid="uid://chngv3iv1qrlv" path="res://МУЗЫКА/Kelly Bailey - CP Violation.mp3" id="5_dcys5"]
+[ext_resource type="AudioStream" uid="uid://cb5ebq6k1s4ax" path="res://МУЗЫКА/Kelly Bailey - Diabolical Adrenaline Guitar.mp3" id="6_krh5m"]
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_fohwo"]
+shuffle = true
+stream_count = 6
+stream_0 = ExtResource("1_7bf0p")
+stream_1 = ExtResource("2_ejxdo")
+stream_2 = ExtResource("3_hc3jy")
+stream_3 = ExtResource("4_w0dnk")
+stream_4 = ExtResource("5_dcys5")
+stream_5 = ExtResource("6_krh5m")
+
+[node name="MUSIC_CONTROLLER" type="AudioStreamPlayer" unique_id=1645255085]
+stream = SubResource("AudioStreamPlaylist_fohwo")
+volume_db = -5.0
+autoplay = true
+script = ExtResource("1_o7k1f")

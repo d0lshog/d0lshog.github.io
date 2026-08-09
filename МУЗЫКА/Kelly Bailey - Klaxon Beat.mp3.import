@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmrtfvfm7iqxf"
+path="res://.godot/imported/Kelly Bailey - Klaxon Beat.mp3-f6d1052f8f58bb5c859c210ad8e0bbb9.mp3str"
+
+[deps]
+
+source_file="res://МУЗЫКА/Kelly Bailey - Klaxon Beat.mp3"
+dest_files=["res://.godot/imported/Kelly Bailey - Klaxon Beat.mp3-f6d1052f8f58bb5c859c210ad8e0bbb9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,38 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1786237081
+default_bus_layout.tres::AudioBusLayout::8971911198730948034::1785908048::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1785953064::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::3899350795525579764::1785676376::1785676385::1::::<><><>0<>0<>b6309824907cc1538aeb7fc024cbfa9c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://EXPORT/::1785953063
+Передевашка С Гордоном Фриманом.apple-touch-icon.png::CompressedTexture2D::6011290937963435272::1785953063::1785904949::1::::<><><>0<>0<>f135525678194c2c2e25062d5bd85324<>res://.godot/imported/Передевашка С Гордоном Фриманом.apple-touch-icon.png-2ca1ba7aa87e9c920ee98b524361c04c.ctex::
+Передевашка С Гордоном Фриманом.icon.png::CompressedTexture2D::1468356397186545::1785953063::1785904949::1::::<><><>0<>0<>93c4d0ed74a7c779895d519f791d7e83<>res://.godot/imported/Передевашка С Гордоном Фриманом.icon.png-0bbc0d66c75c7f81e2c6bd2d843697e5.ctex::
+Передевашка С Гордоном Фриманом.png::CompressedTexture2D::1622671290368133887::1785953063::1785904949::1::::<><><>0<>0<>fe81edf746e5b2ff5acb4f3f0323d8a6<>res://.godot/imported/Передевашка С Гордоном Фриманом.png-cdc4fd3ad3d01d218a1b54fb0f644f10.ctex::
+::res://ВРЕМЕННЫЕ РЕСУРСЫ/::1785909222
+ACC.tres::ButtonGroup::7432131070483004686::1785909222::0::1::::<><><>0<>0<><>::
+COSTUME.tres::ButtonGroup::907113495662184823::1785903314::0::1::::<><><>0<>0<><>::
+HEAD.tres::ButtonGroup::479232410025392307::1785908103::0::1::::<><><>0<>0<><>::
+::res://МУЗЫКА/::1785945293
+Half-Life 2 - Sector Sweep.mp3::AudioStreamMP3::6500755200046661623::1785944240::1785944382::1::::<><><>0<>0<>6b7cf2d0e84b049ee563d7fd4d8f161f<>res://.godot/imported/Half-Life 2 - Sector Sweep.mp3-8327f985e824e551eee3d6501968d0e0.mp3str::
+Half-Life - Credits Closing Theme.mp3::AudioStreamMP3::6559220145390349863::1785944430::1785944434::1::::<><><>0<>0<>0c3d47f8c6a648a1c86d1d6869b3211b<>res://.godot/imported/Half-Life - Credits Closing Theme.mp3-f96213985cbaf53ca9fc2a8b51e287ef.mp3str::
+Half-life - Мюзикл.mp3::AudioStreamMP3::5478517615858615235::1785880464::1785880757::1::::<><><>0<>0<>1ab41b8ad765b4b4ee08eed102d0ff81<>res://.godot/imported/Half-life - Мюзикл.mp3-fd19155f32541c4821135f6df2a4d9cd.mp3str::
+Kelly Bailey - CP Violation.mp3::AudioStreamMP3::5291403471285584399::1785944278::1785944382::1::::<><><>0<>0<>96f535c01510ab28343b8002c1a64450<>res://.godot/imported/Kelly Bailey - CP Violation.mp3-9c4da5d9d163cfe363406fbb23a5adf8.mp3str::
+Kelly Bailey - Diabolical Adrenaline Guitar.mp3::AudioStreamMP3::4905207086163377723::1785944167::1785944382::1::::<><><>0<>0<>95e835bba390f8cc0ac86349a9a32247<>res://.godot/imported/Kelly Bailey - Diabolical Adrenaline Guitar.mp3-5d75f05ac5c3e1187bd5cf2c0f2fad6c.mp3str::
+Kelly Bailey - Klaxon Beat.mp3::AudioStreamMP3::8037786259689491923::1785889014::1785889015::1::::<><><>0<>0<>1c9ac4ec234912930cf277c897426d4b<>res://.godot/imported/Kelly Bailey - Klaxon Beat.mp3-f6d1052f8f58bb5c859c210ad8e0bbb9.mp3str::
+Kelly Bailey - Triage at Dawn (HL2 ost).mp3::AudioStreamMP3::5370876476080047916::1785944677::1785945293::1::::<><><>0<>0<>68bb663c2baee2079197cf51bd964d8c<>res://.godot/imported/Kelly Bailey - Triage at Dawn (HL2 ost).mp3-46dc80e3f9e2ab85f3b2af273111ebe3.mp3str::
+::res://СКРИПТЫ/::1785952996
+GAME.gd::GDScript::804743915042513428::1785952996::0::1::::<>Node<><>0<>0<><>::
+menu.gd::GDScript::1388060982616570541::1785900740::0::1::::<>Control<><>0<>0<><>::
+music_controller.gd::GDScript::8927424813915365318::1785906931::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
+::res://СПРАЙТЫ/::1785952637
+1.png::CompressedTexture2D::142922296994746540::1785952599::1785952637::1::::<><><>0<>0<>dc5027e8381dc2c4b3d1f78576b4184d<>res://.godot/imported/1.png-4e50d543b9d179db0db78d70a6ff2258.ctex::
+2.png::CompressedTexture2D::5990540642221779455::1785952611::1785952637::1::::<><><>0<>0<>1951b5307f807ad8751449374e7bb792<>res://.godot/imported/2.png-fd0479971de3c91000e80cbe55b1226d.ctex::
+3.png::CompressedTexture2D::8722378659598859543::1785952635::1785952637::1::::<><><>0<>0<>1bf640fb23c3a142189bfdf7dc44f6d1<>res://.godot/imported/3.png-f42dec1e6ce49065e39a753f77267efe.ctex::
+half_life_1_menu_background_by_maiik28_deak6ld-fullview.png::CompressedTexture2D::7804153207745398455::1785896764::1785899729::1::::<><><>0<>0<>16445facb8b0173c345f045e06954b5d<>res://.godot/imported/half_life_1_menu_background_by_maiik28_deak6ld-fullview.png-2834a5be973cd5e2b4abf3038692fdda.ctex::
+images.jpg::CompressedTexture2D::7279006887943242728::1785879611::1785899728::1::::<><><>0<>0<>d5e47c21189da92f0bf5d65fadba5eb6<>res://.godot/imported/images.jpg-e1753c044bf3d91a39adcfa8027250d7.ctex::
+Передевашка С Гордоном Фриманом.apple-touch-icon.png::CompressedTexture2D::5254636511993279516::1785899060::1785899728::1::::<><><>0<>0<>4541f0a9d183b511ee735a3af93b9b53<>res://.godot/imported/Передевашка С Гордоном Фриманом.apple-touch-icon.png-b3ae6a2034c2059c2598b6f3883382d6.ctex::
+Передевашка С Гордоном Фриманом.icon.png::CompressedTexture2D::7202222890612733472::1785899060::1785899728::1::::<><><>0<>0<>f1838896fff6b754d9ef1336f1854d2b<>res://.godot/imported/Передевашка С Гордоном Фриманом.icon.png-0559318dc76663d48eaccd32a06ded14.ctex::
+Передевашка С Гордоном Фриманом.png::CompressedTexture2D::8870448059900371802::1785899060::1785899728::1::::<><><>0<>0<>57a690e990dd232051f167b50e6053d4<>res://.godot/imported/Передевашка С Гордоном Фриманом.png-afb98ef0a974b48d8580ee3056070370.ctex::
+::res://СЦЕНЫ/::1785952996
+GAME.tscn::PackedScene::7447541928238189249::1785952996::0::1::::<><><>0<>0<><>::uid://lp3araaodr0g::::res://СКРИПТЫ/GAME.gd<>uid://djgni7gc1pe7p::::res://СПРАЙТЫ/half_life_1_menu_background_by_maiik28_deak6ld-fullview.png<>uid://m6oa56dedbwp::::res://ВРЕМЕННЫЕ РЕСУРСЫ/COSTUME.tres<>uid://g3e5gjfss260::::res://ВРЕМЕННЫЕ РЕСУРСЫ/HEAD.tres<>uid://dd5gd3q0rft8i::::res://ВРЕМЕННЫЕ РЕСУРСЫ/ACC.tres<>uid://cbh56hdsgyr1::::res://СПРАЙТЫ/1.png<>uid://crl4lgq36pho6::::res://СПРАЙТЫ/2.png<>uid://dwjgkjkoe08vb::::res://СПРАЙТЫ/3.png
+MENU.tscn::PackedScene::4072874069844285035::1785900740::0::1::::<><><>0<>0<><>::uid://t1nfq17pkutx::::res://СКРИПТЫ/menu.gd<>uid://dbyagebp85y0w::::res://СПРАЙТЫ/images.jpg
+music_controller.tscn::PackedScene::3374558109353248681::1785952305::0::1::::<><><>0<>0<><>::uid://ckb3ncyyfq708::::res://МУЗЫКА/Half-life - Мюзикл.mp3<>uid://d0grnaa0umogc::::res://СКРИПТЫ/music_controller.gd<>uid://dmrtfvfm7iqxf::::res://МУЗЫКА/Kelly Bailey - Klaxon Beat.mp3<>uid://cyvaqus8204df::::res://МУЗЫКА/Half-Life 2 - Sector Sweep.mp3<>uid://c0plnrqtscpr0::::res://МУЗЫКА/Half-Life - Credits Closing Theme.mp3<>uid://chngv3iv1qrlv::::res://МУЗЫКА/Kelly Bailey - CP Violation.mp3<>uid://cb5ebq6k1s4ax::::res://МУЗЫКА/Kelly Bailey - Diabolical Adrenaline Guitar.mp3

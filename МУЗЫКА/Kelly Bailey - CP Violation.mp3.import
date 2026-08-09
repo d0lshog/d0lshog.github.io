@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chngv3iv1qrlv"
+path="res://.godot/imported/Kelly Bailey - CP Violation.mp3-9c4da5d9d163cfe363406fbb23a5adf8.mp3str"
+
+[deps]
+
+source_file="res://МУЗЫКА/Kelly Bailey - CP Violation.mp3"
+dest_files=["res://.godot/imported/Kelly Bailey - CP Violation.mp3-9c4da5d9d163cfe363406fbb23a5adf8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
